@@ -1,0 +1,84 @@
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  .App-header{
+    color: rgba(21, 82, 228, 1);
+  }
+  .btn-start{
+    border: none;
+    outline: none;
+    background-color: rgba(21, 82, 228, 1);
+    color: #fff;
+    border-radius: 6px;
+    padding: 8px 30px;
+    margin-top: 16px;
+    text-transform: capitalize;
+  }
+
+  .questionDOM{
+    text-align: left;
+    width: 500px;
+    border: 2px solid rgba(21, 82, 228, 1);
+    border-radius: 8px;
+    padding: 20px;
+    margin: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 16px;
+
+    .questionDOM-header{
+      color: rgba(21, 82, 228, 1);
+      padding: 0;
+      margin: 0;
+    }
+    .instruction{
+      margin-top: 0;
+    }
+    .questions{
+      position: relative;
+      width: 90%;
+      .question{
+        font-style: normal;
+        font-size: 19px;
+        margin: 0;
+
+      }
+      .answerStatus{
+        position: absolute;
+        left: 50%;
+        background-color: rgba(21, 82, 228, 0.5);
+        color: #fff;
+        border-radius: 6px;
+        
+        padding: 1px 16px 5px;
+        // margin: 0;
+      }
+      .options{
+        margin-top: 40px;
+        .option{
+          font-size: 17px;
+          background-color: rgba(240, 242, 247, 1);
+          margin: 6px 0;
+          width: 100%;
+          border-radius: 8px;
+          padding: 9px 20px;
+          cursor: pointer;
+        }
+      }
+    }
+
+    .btn{
+      border: none;
+      outline: none;
+      background-color: rgba(21, 82, 228, 1);
+      color: #fff;
+      border-radius: 6px;
+      padding: 8px 30px;
+      margin-top: 16px;
+      align-self: flex-end;
+    }
+  }
+}

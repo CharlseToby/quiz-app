@@ -1,6 +1,22 @@
-# Getting Started with Create React App
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+Link to live site: https://charlsetoby.github.io/quiz-app/
+
+Build a quiz application using react with typescript
+
+It should be 4 questions with  four options each. One option as the correct option and the other 3 as incorrect options.
+
+Concepts learnt:
+Conditional rendering, routing, hooks
+
+Technologies used:
+  Typescript
+  SCSS
+  React
+
+
+
+
 
 ## Available Scripts
 
